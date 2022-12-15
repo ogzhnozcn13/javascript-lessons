@@ -114,3 +114,8 @@ const m1 = ["a", "b", "c", "d", "e", "f"];
 const n1 = m1.splice(1, 3, "v", "y", "z", "q");
 console.log(m1);
 console.log(n1);
+
+
+
+let ozy = Array(1).fill([1,2,3,"Hello", "oguzhan"]);
+console.log(ozy);
