@@ -115,7 +115,58 @@ for(let j = 1; j <= 100; j++){
 
 
 
+
+
 //?   9
+let isNumber;
+for(iz = 2; iz <= 15; iz++){
+    isNumber = true; 
+    for(jz =2; jz < iz; jz ++){
+        if(iz % jz === 0){
+        console.log(`${iz} asal değildir.`);
+        isNumber = false
+        break;
+        }
+    }
+    if(isNumber){
+        console.log(`${iz} asaldır.`);
+    }
+}
+
+
+
+
+
+
+//?   10
+
+let c = 0;
+for(iii = 0; iii <= 100; iii++){
+    c += iii
+    // console.log(c);
+}
+console.log(c);
+
+
+
+
+
+//?   11
+
+let w = 0;
+for(k = 0; k <= 100; k += 2){
+    w += k;
+    // console.log(w);
+}
+console.log(w);
+
+
+
+
+
+//?   12
+
+
 
 
 
