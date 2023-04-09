@@ -73,3 +73,35 @@ console.log(x === y);
 console.log(x !== y);
 
 
+
+console.log("*******************************");
+
+const v1 = true
+const v2 = false
+const v3 = false
+const v4 = true
+
+console.log(v1 && v2);
+console.log(v1 || v2);
+console.log( v1 && v4);
+console.log(v1 || v2 || v3 || v4);
+console.log(!v1);
+
+// const age = +prompt("age?:")
+// const healthy = confirm("are you healty")
+// console.log(age, healthy);
+
+// if(age >= 18 && healthy == true){
+//     console.log("ehliyet alabilir");
+// }else{
+//     console.log("büyü de gel");
+// }
+
+const dolar = "1000"
+const tl = "500"
+const toplam = +dolar + +tl
+console.log(toplam);
+
+console.log(Number(dolar));
+console.log(String(100));
+console.log(Number(null));
